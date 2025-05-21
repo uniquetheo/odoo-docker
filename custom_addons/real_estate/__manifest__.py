@@ -8,8 +8,8 @@
     "description":"""A module to manage real estate properties, clients, and transactions.""",
     "depends": ["base"],
     "data": [
-        # 'views/property.xml',
-        # 'views/menu.xml',
+        'views/property.xml',
+        'views/menu.xml',
     ],
     "installable": True,
     "application": True
