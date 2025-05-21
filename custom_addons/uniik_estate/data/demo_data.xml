@@ -1,0 +1,35 @@
+<odoo>
+    <record id="partner_demo1" model="res.partner">
+        <field name="name">John Doe</field>
+    </record>
+
+    <record id="partner_demo2" model="res.partner">
+        <field name="name">Jane Smith</field>
+    </record>
+
+    <!-- <record id="property_demo112" model="estate.property">
+        <field name="name">Jakov Apartment</field>
+        <field name="description">Luxurious apartment complex with modern kitchen</field>
+        <field name="expected_price">120000</field>
+        <field name="status">Available</field>
+    </record>
+
+    <record id="property_demo134" model="estate.property">
+        <field name="name">Black Stone Flat</field>
+        <field name="description">Furnished 3 bedroom s/c</field>
+        <field name="expected_price">80000</field>
+        <field name="status">Available</field>
+    </record> -->
+
+    <!-- <record id="offer_demo1" model="estate.property.offer">
+        <field name="price">145000</field>
+        <field name="partner_id" ref="partner_demo1"/>
+        <field name="property_id" ref="property_demo1"/>
+    </record>
+
+    <record id="offer_demo2" model="estate.property.offer">
+        <field name="price">148000</field>
+        <field name="partner_id" ref="partner_demo2"/>
+        <field name="property_id" ref="property_demo1"/>
+    </record> -->
+</odoo>

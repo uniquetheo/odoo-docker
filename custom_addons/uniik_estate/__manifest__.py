@@ -12,6 +12,10 @@
         'views/property_views.xml',
         'views/offer_views.xml',
         'security/ir.model.access.csv',
+        'data/demo_data.xml',
+    ],
+    'demo': [
+        'data/demo_data.xml',
     ],
 
     
