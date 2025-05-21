@@ -2,6 +2,7 @@
     "name":"uniik_estate",
     "version":"1.0",
     "author":"Theo Mercifield",
+    "website": "https://uniiktheo.tech"
     "category":"Real Estate",
     "sequence":-10,
     "summary":"Real Estate Management",
