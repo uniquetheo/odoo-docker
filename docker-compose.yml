@@ -1,0 +1,27 @@
+services:
+  odoo:
+    image: odoo:18.0
+    ports:
+      - "8069:8069" # Maps Odoo to http://localhost:8069
+    volumes:
+      - ./custom_addons:/mnt/extra-addons # Your custom modules
+      - odoo-data:/var/lib/odoo # Odoo filestore
+    depends_on:
+      - db
+    environment:
+      - HOST=db
+      - USER=odoo
+      - PASSWORD=odoo
+
+  db:
+    image: postgres:13
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=odoo
+      - POSTGRES_PASSWORD=odoo
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+
+volumes:
+  odoo-data:
+  postgres-data:
