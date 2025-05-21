@@ -7,10 +7,14 @@
     "summary":"Real Estate Management",
     "description":"""A module to manage real estate properties, clients, and transactions.""",
     "depends": ["base"],
+    "license": "AGPL-3",
     "data": [
         'views/property_views.xml',
-        # 'security/ir.model.access.csv',
+        'views/offer_views.xml',
+        'security/ir.model.access.csv',
     ],
+
+    
     "installable": True,
     "application": True
 }
